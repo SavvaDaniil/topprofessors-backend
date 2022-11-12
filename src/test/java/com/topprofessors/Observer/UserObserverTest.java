@@ -41,7 +41,7 @@ public class UserObserverTest {
 		UserFactoryTest userFactoryTest = new UserFactoryTest();
 		CourseFactoryTest courseFactoryTest = new CourseFactoryTest();
 		
-		User userMock = userFactoryTest.createMockWithUsername(1, "savva.d@mail.ru");
+		User userMock = userFactoryTest.createMockWithUsername(1, "XXXXXXXXXXXX");
 
 		Course courseMock = courseFactoryTest.createMock(1);
 		
